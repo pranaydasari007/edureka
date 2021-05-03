@@ -1,4 +1,4 @@
-import java.util.Date;
+import prany.util.Date;
 
 /**
  * Class that stores information about pranay student
@@ -8,7 +8,7 @@ import java.util.Date;
  * or hashCode() method
  * 
  */
-public class Student implements Comparable {
+public class pranay implements Comparable {
 
 	/**
 	 * student id
