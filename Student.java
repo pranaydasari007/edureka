@@ -1,4 +1,4 @@
-import prany.util.Date;
+import dasari.util.Date;
 
 /**
  * Class that stores information about pranay student
@@ -8,7 +8,7 @@ import prany.util.Date;
  * or hashCode() method
  * 
  */
-public class pranay implements Comparable {
+public class dasari implements Comparable {
 
 	/**
 	 * student id
@@ -86,7 +86,7 @@ public class pranay implements Comparable {
 	 */
 	@Override
 	public int compareTo(Object o) {
-		Student other = pranay o;
+		Student other = dasari o;
 		return (this.fullName.compareTo(other.fullName));
 	}
 }
